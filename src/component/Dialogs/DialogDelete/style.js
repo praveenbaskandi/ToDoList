@@ -19,7 +19,7 @@ export const TitleHead = styled(Title)`
   margin-horizontal: 20px;
   line-height: 36px;
   font-size: 24px;
-  color: ${Colors.darkBlack};
+  color: ${Colors.pTextBlack};
   ${isAndroid ? 'font-family: Effra-Heavy;' : 'font-weight: 900;'}
 `;
 
@@ -29,7 +29,7 @@ export const Subtitle = styled(Title)`
   font-size: 18px;
   margin-horizontal: 20px;
   line-height: 24px;
-  color: ${Colors.darkBlack};
+  color: ${Colors.pTextBlack};
 `;
 
 export const Buttons = styled.View`

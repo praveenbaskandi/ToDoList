@@ -53,7 +53,7 @@ export const RoundBtn = styled.TouchableOpacity`
   bottom: 50px;
   right: 20px;
   border-color: ${Colors.white};
-  background-color: ${({click}) => (click ? Colors.white : Colors.pDarkBlue)};
+  background-color: ${Colors.pDarkBlue};
   border-radius: 60px;
   justify-content: center;
   shadow-color: ${Colors.white};

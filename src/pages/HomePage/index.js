@@ -46,7 +46,7 @@ const HomePage = () => {
   };
 
   const renderItem = ({item}) => (
-    <S.TaskBox onPress={() => editBtnClick(item)}>
+    <S.TaskBox key={item.taskId} onPress={() => editBtnClick(item)}>
       <S.TaskText>{item.task}</S.TaskText>
       <S.ImageClick onPress={() => deleteBtnClick(item)}>
         <S.DeleteIcon source={imgTrash} />
@@ -73,7 +73,7 @@ const HomePage = () => {
         <S.ListView
           data={task}
           renderItem={renderItem}
-          keyExtractor={item => item.id}
+          keyExtractor={item => item.taskId}
         />
       )}
 

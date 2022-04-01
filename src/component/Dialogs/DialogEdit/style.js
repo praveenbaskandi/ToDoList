@@ -19,7 +19,7 @@ export const TitleHead = styled(Title)`
   margin-horizontal: 20px;
   line-height: 36px;
   font-size: 24px;
-  color: ${Colors.darkBlack};
+  color: ${Colors.pTextBlack};
   ${isAndroid ? 'font-family: Effra-Heavy;' : 'font-weight: 900;'}
 `;
 

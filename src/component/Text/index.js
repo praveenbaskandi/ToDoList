@@ -11,7 +11,7 @@ const StyledText = styled.Text.attrs(({testID}) => ({
 `;
 
 export const Divider = styled.View`
-  background-color: ${Colors.glGrey};
+  background-color: ${Colors.pTextGrey};
   height: 1px;
   margin-bottom: ${({mb}) => mb || 0}px;
   margin-horizontal: ${({mh}) => mh || 0}px;
@@ -19,14 +19,14 @@ export const Divider = styled.View`
 `;
 
 export const ErrorText = styled(StyledText)`
-  color: ${Colors.error};
+  color: ${Colors.pRed};
   font-size: 15px;
   letter-spacing: 0.2px;
   line-height: 17px;
 `;
 
 export const Title = styled(StyledText)`
-  color: ${Colors.primary};
+  color: ${Colors.white};
   font-size: 15px;
   letter-spacing: 0.44px;
   line-height: 15px;
@@ -34,7 +34,7 @@ export const Title = styled(StyledText)`
 `;
 
 export const BottomTitle = styled(StyledText)`
-  color: ${Colors.primary};
+  color: ${Colors.white};
   font-size: 15px;
   letter-spacing: 0.44px;
   line-height: 15px;
