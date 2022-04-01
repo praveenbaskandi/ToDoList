@@ -6,7 +6,7 @@ Based on:
 - [React 17](https://reactjs.org)
 - [React Native 0.65](https://reactnative.dev)
 - [Redux](https://redux.js.org)
-- [React Navigation](https://reactnavigation.org/docs/getting-started/)
+- [Realm Database](https://www.mongodb.com/docs/realm/sdk/react-native/)
 
 ## Getting started
 
@@ -46,7 +46,7 @@ Based on:
 - This image show the dialog in case you want to add a task.
 - 1 input text to write a task and and save button to save the task.
 
-<img src="screen_shot/screenshot_3.png" width="150" height="300"/>
+<img src="screen-shot/screenshot_3.png" width="150" height="300"/>
 
 
 
@@ -56,4 +56,4 @@ Based on:
 - 1 input text in which per written text in it which you cant to modify.
 - Update button to update the task.
 
-<img src="screen_shot/screenshot_4.png" width="150" height="300"/>
+<img src="screen-shot/screenshot_4.png" width="150" height="300"/>
