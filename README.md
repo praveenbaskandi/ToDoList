@@ -8,6 +8,10 @@ Based on:
 - [Redux](https://redux.js.org)
 - [Realm Database](https://www.mongodb.com/docs/realm/sdk/react-native/)
 
+
+https://user-images.githubusercontent.com/34801310/161353508-36d31a77-2ce8-4d8e-be3d-cbdee2cd7a73.mov
+
+
 ## Getting started
 
 - Install [yarn](https://classic.yarnpkg.com/en/docs/install): `npm i -g yarn`
