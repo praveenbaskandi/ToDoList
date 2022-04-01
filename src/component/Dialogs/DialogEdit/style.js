@@ -23,6 +23,15 @@ export const TitleHead = styled(Title)`
   ${isAndroid ? 'font-family: Effra-Heavy;' : 'font-weight: 900;'}
 `;
 
+export const ErrorText = styled(Title)`
+  align-self: center;
+  margin-horizontal: 20px;
+  margin-top: 5px;
+  line-height: 22px;
+  font-size: 18px;
+  color: ${Colors.pRed};
+`;
+
 export const Buttons = styled.View`
   padding-bottom: 26px;
   width: 100%;

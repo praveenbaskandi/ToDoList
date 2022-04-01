@@ -85,6 +85,7 @@ const HomePage = () => {
       {dialogEdit ? (
         <DialogEdit
           isVisible={dialogEdit}
+          errorText={translations.errorText}
           title={translations.toDoTask}
           btnText={selectItem ? translations.update : translations.add}
           editText={selectItem ? selectItem?.task : ''}

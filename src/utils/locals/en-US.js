@@ -22,6 +22,7 @@ module.exports = {
       youWinThis: 'You win this game by',
       step: 'steps!',
       add: 'Add',
+      errorText: 'Task cannot be empty',
       update: 'Update',
       toDoTask: 'ToDo Task',
       enterTask: 'Enter the task',

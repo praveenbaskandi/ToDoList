@@ -13,9 +13,11 @@ const DialogEdit = ({
   onCloseClick,
   buttonClick,
   editText,
+  errorText,
   ...rest
 }) => {
   const [task, setTask] = useState(editText);
+  const [error, setError] = useState(false);
   return (
     <Dialog centerInScreen withCustomContainer {...rest}>
       <S.Container>
@@ -28,11 +30,16 @@ const DialogEdit = ({
           value={task}
           onChangeText={setTask}
         />
+        {error ? <S.ErrorText>{errorText}</S.ErrorText> : null}
         <Button
           btnText={btnText}
           click={() => {
-            buttonClick(task);
-            onCloseClick();
+            if (task === '') {
+              setError(true);
+            } else {
+              buttonClick(task);
+              onCloseClick();
+            }
           }}
           mt={20}
         />
@@ -48,6 +55,7 @@ DialogEdit.propTypes = {
   btnText: string,
   placeHolder: string,
   editText: string,
+  errorText: string,
 };
 
 DialogEdit.defaultProps = {
